@@ -1,0 +1,682 @@
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body Styling */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* Navbar Styling */
+
+.navbar {
+    background-color: #000 !important;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link {
+    color: #ddd !important;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #fff !important;
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* Search bar */
+
+.form-control {
+    border-radius: 20px;
+}
+
+.btn-outline-success {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+}
+
+
+/* Dropdown menu */
+
+.dropdown-menu {
+    background-color: #222;
+}
+
+.dropdown-item {
+    color: #ddd;
+}
+
+.dropdown-item:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* Carousel Styling */
+
+.carousel-inner img {
+    height: 90vh;
+    object-fit: cover;
+    filter: brightness(90%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.carousel-caption-custom {
+    position: absolute;
+    top: 50%;
+    left: 500px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 10;
+}
+
+.carousel-caption-custom h5 {
+    color: #ffa534;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.carousel-caption-custom h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.carousel-caption-custom p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    letter-spacing: 2px;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+
+/* offer */
+
+
+/* Offer Section Styling */
+
+.offer {
+    background: url('/images/bg.png') center center no-repeat;
+    height: 500px;
+    width: 1500px;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+/* Optional overlay if needed */
+
+.offer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 15, 15, 0.6);
+    /* dark overlay for contrast */
+    z-index: -1;
+}
+
+
+/* Heading Styling */
+
+.offer h1.display-3 {
+    color: #c89f72;
+    font-weight: bold;
+}
+
+.offer h1.text-white {
+    font-size: 2.5rem;
+}
+
+.offer h4 {
+    color: #eee;
+}
+
+
+/* Email Form Styling */
+
+.offer .form-control {
+    border: none;
+    border-radius: 0;
+    max-width: 300px;
+    margin-right: 10px;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.offer .btn-primary {
+    background-color: #c89f72;
+    border: none;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.offer .btn-primary:hover {
+    background-color: #a87948;
+    color: #fff;
+}
+
+
+/* menu */
+
+.container1-fluid {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-title h4 {
+    color: #f4a261;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.section-title h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0;
+    color: #3e2723;
+}
+
+
+/* Menu Section */
+
+h1.mb-5 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #3e2723;
+}
+
+.menu-price {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: #e7a76c;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    z-index: 1;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.row.align-items-center {
+    position: relative;
+}
+
+.col-4,
+.col-sm-3 {
+    flex: 0 0 auto;
+    width: 25%;
+    max-width: 120px;
+    position: relative;
+}
+
+.col-8,
+.col-sm-9 {
+    flex: 1;
+    padding-left: 1rem;
+}
+
+
+/* #img1.w-100 {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #f8ede3;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); */
+
+
+/* } */
+
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    .row.align-items-center {
+        flex-direction: column;
+        text-align: center;
+    }
+    .col-4,
+    .col-sm-3,
+    .col-8,
+    .col-sm-9 {
+        width: 100%;
+        padding: 0;
+    }
+    .menu-price {
+        left: 10px;
+        top: 10px;
+    }
+    img.w-100 {
+        max-width: 150px;
+        margin: auto;
+    }
+}
+
+
+/* General Reservation Section Background */
+
+.reservation {
+    background: url('/images/bg.png') center center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+
+/* Overlay effect (if needed) */
+
+.overlay-top::before,
+.overlay-bottom::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: url('/images/bg.png') top center repeat-x;
+    z-index: 1;
+}
+
+.overlay-top::before {
+    top: 0;
+}
+
+.overlay-bottom::after {
+    bottom: 0;
+    background: url('/images/bg.png') bottom center repeat-x;
+}
+
+
+/* Left promo block */
+
+.reservation .p-5 {
+    background: rgba(30, 20, 10, 0.85);
+    border-radius: 10px 0 0 10px;
+    color: #fff;
+}
+
+.reservation .text-primary {
+    color: #f4a261 !important;
+}
+
+
+/* List with checkmarks */
+
+.reservation ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.reservation ul li {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.reservation ul i {
+    color: #f4a261;
+    margin-right: 10px;
+}
+
+
+/* Right form block */
+
+.reservation .form-control,
+.reservation .custom-select {
+    background-color: transparent;
+    border: 1px solid #f4a261;
+    color: #fff;
+}
+
+.reservation .form-control::placeholder,
+.reservation .custom-select {
+    color: #eee;
+}
+
+.reservation .btn-primary {
+    background-color: #f4a261;
+    border: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.reservation .btn-primary:hover {
+    background-color: #e08a45;
+}
+
+
+/* Typography */
+
+.reservation h1 {
+    color: #fff;
+}
+
+.reservation .display-3 {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .reservation .row {
+        flex-direction: column;
+    }
+    .reservation .p-5 {
+        border-radius: 10px 10px 0 0;
+        text-align: center;
+    }
+    .reservation form {
+        margin-top: 30px;
+    }
+    .reservation .text-center {
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+
+/* Section Title Styling */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-title h4 {
+    color: #f4a261;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.section-title h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #3e2723;
+    margin: 0;
+}
+
+
+/* Testimonial Item Styles */
+
+.testimonial-item {
+    background-color: #fff8f2;
+    padding: 30px;
+    margin: 0 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease;
+}
+
+.testimonial-item:hover {
+    transform: translateY(-5px);
+}
+
+.testimonial-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #f4a261;
+}
+
+.testimonial-item h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #3e2723;
+}
+
+.testimonial-item i {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.testimonial-item p {
+    font-size: 0.95rem;
+    margin-top: 10px;
+    color: #444;
+    line-height: 1.6;
+}
+
+
+/* Carousel Dots */
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    background: #f4a261;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.owl-dot.active {
+    opacity: 1;
+    background: #3e2723;
+}
+
+
+/* Footer Section Base */
+
+.footer {
+    background: url('/images/bg.png') center center no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    font-size: 0.95rem;
+}
+
+
+/* Overlay Top Design (Dark Curve Top) */
+
+.footer.overlay-top::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: url('/images/bg.png') repeat-x;
+    background-size: contain;
+    z-index: 1;
+}
+
+.footer .container-fluid {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Footer Headings */
+
+.footer h4 {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    color: #fbf7f7;
+    font-weight: bold;
+}
+
+
+/* Contact and Info Text */
+
+.footer p,
+.footer a {
+    color: #e0e0e0;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+
+
+/* Social Icons */
+
+.footer .btn-outline-light {
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.footer .btn-outline-light:hover {
+    background-color: #f4a261;
+    border-color: #f4a261;
+    color: #fff;
+}
+
+
+/* Newsletter Input */
+
+.footer .form-control {
+    border: none;
+    padding: 1rem;
+    border-radius: 0;
+}
+
+.footer .btn-primary {
+    background-color: #c87f48;
+    border: none;
+    font-weight: bold;
+}
+
+.footer .btn-primary:hover {
+    background-color: #a95e2a;
+}
+
+
+/* Bottom Copyright Bar */
+
+.footer .border-top {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.footer a.font-weight-bold:hover {
+    color: #f4a261;
+}
+
+
+/* Page Header Background */
+
+.page-header {
+    background: url('/images/bg.png') center center no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+/* Overlay curve at bottom */
+
+.page-header.overlay-bottom::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url('/images/bg.png') repeat-x;
+    background-size: contain;
+    z-index: 1;
+}
+
+
+/* Content wrapper positioning */
+
+.page-header .d-flex {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Title styles */
+
+.page-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Breadcrumb */
+
+.page-header p {
+    font-size: 1rem;
+    color: #ffffff;
+    margin: 0;
+}
